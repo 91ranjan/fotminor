@@ -42,7 +42,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
   width: 960px;
 }
 header {
-height: 80px;
+height: 100px;
 }
 
 /*.level-2-torso {
@@ -207,7 +207,6 @@ height: 80px;
 }
 .bd-logo{
   width:215px;
-  margin-top:-15px;
 }
 
 .hero-hexa {
@@ -1150,4 +1149,3 @@ footer{
   letter-spacing: 0.6px;
   font-size: 12px;
 }
-
