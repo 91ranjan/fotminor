@@ -1156,3 +1156,24 @@ footer{
 .features-torso-wrap{
   padding-bottom: 30px;
 }
+.sign-up-button{
+  background-color: #F07322;
+  color: white;
+  margin-left: 10px;
+  border-radius:0px;
+}
+.solutions-section-title{
+  font-size: 21px;
+  margin-top: 10px;
+  letter-spacing: 0.4px;
+  color: #545454;
+  font-family: "gotham-medium";
+}
+.main-solutions-title{
+  font-family: "gotham-medium";
+}
+.main-solutions-description{
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
