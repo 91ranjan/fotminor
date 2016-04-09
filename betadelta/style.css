@@ -45,9 +45,9 @@ header {
 height: 80px;
 }
 
-.level-2-torso {
+/*.level-2-torso {
   margin-top: -441px;
-}
+}*/
 .bd-logo{
   width:215px;
   margin-top:-15px;
@@ -149,14 +149,14 @@ width: 401px;
 }
 #careers-tab-container ul{
   margin-top: -23%
-} 
-.level-2-torso {
-  margin-top: -393px; 
-}  
-
-.payment-torso {
-  margin-top:-480px;
 }
+/*.level-2-torso {
+  margin-top: -393px;
+}*/
+
+/*.payment-torso {
+  margin-top:-480px;
+}*/
 
 .solution-name{
   color:#5E6062;
@@ -175,11 +175,11 @@ width: 401px;
   float: left;
   margin-left: -5px;
   margin-right: -25px;
-} 
+}
 .service-logo img{
   width: 70%;
   margin-right: -60px;
-}           
+}
 }
 
 
@@ -199,9 +199,9 @@ height: 80px;
   height:14px !important;
   margin:2px !important;
 }
-.level-2-torso {
+/*.level-2-torso {
 
-  margin-top: -389px; 
+  */margin-top: -389px;
 
 }
 .bd-logo{
@@ -302,11 +302,11 @@ width: 401px;
 }
 #careers-tab-container ul{
   margin-top: -23%
-} 
-
-.payment-torso {
-  margin-top:-480px;
 }
+
+/*.payment-torso {
+  margin-top:-480px;
+}*/
 
 .solution-name{
   color:#5E6062;
@@ -336,9 +336,9 @@ width: 401px;
 .container{
   width: 750px;
 }
-  .level-2-torso {
+  /*.level-2-torso {
   margin-top: 0px;
-}
+}*/
 header {
 height: 80px;
 }
@@ -347,9 +347,9 @@ height: 80px;
   width: 100%;
   height:auto;
 }
-.level-2-torso {
-  margin-top: -387px; 
-}
+/*.level-2-torso {
+  margin-top: -387px;
+}*/
 .carousel-indicators li {
   width:14px !important;
   height:14px !important;
@@ -475,9 +475,9 @@ width: 401px;
 #careers-tab-container ul{
   margin-top: -43%
 }
-.payment-torso {
+/*.payment-torso {
   margin-top:-551px;
-}
+}*/
 
 .solution-name{
   color:#5E6062;
@@ -531,9 +531,9 @@ height: 32px;
   margin:2px !important;
 }
 
-  .level-2-torso {
+  /*.level-2-torso {
   margin-top: -393px;
-}
+}*/
   .bd-logo{
     width:131px;
   top: -26px;
@@ -683,9 +683,9 @@ height:95vh;
   width: 70%;
   margin-right: -60px;
 }
-.payment-torso {
+/*.payment-torso {
   margin-top: -112px;
-}
+}*/
 }
 
 
@@ -720,9 +720,9 @@ h2 {
   top: -31px !important;
     opacity: 0.3 !important;
 }
-.level-2-torso {
+/*.level-2-torso {
   margin-top: -393px;
-}
+}*/
 
 .bd-logo{
     width:131px;
@@ -857,9 +857,9 @@ margin-top:19px;
   margin-top: -113%
 }
 
-.payment-torso {
+/*.payment-torso {
   margin-top: -306px;
-}
+}*/
 
 .solution-name{
   color:#5E6062;
