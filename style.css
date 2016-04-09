@@ -1209,3 +1209,7 @@ footer{
     height: 100%;
   }
 }
+.equal-height-columns{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
