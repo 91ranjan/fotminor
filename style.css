@@ -51,6 +51,7 @@ height: 80px;
 .bd-logo{
   width:215px;
   margin-top:-15px;
+  pointer-events: none;
 }
 
 .carousel-indicators li {
