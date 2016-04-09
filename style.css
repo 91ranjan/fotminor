@@ -84,6 +84,7 @@ height:820px;
 
 
 #portal-gradient{
+  position: relative;
   background:linear-gradient(
       110deg, #fdffe9, #f0ffff
     ); height:820px;
@@ -94,12 +95,16 @@ height:820px;
     margin-right: 8px;
     letter-spacing: 0.8px;
 }
-#hero-portal-text {
-  right: 82px;
+.hero-portal-text {
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    position: absolute;
+/*  right: 82px;
     left: 0px;
     width: 100%;
     top: -50px;
-}
+*/}
 
 .slide-header{
   color: #40608e;
@@ -234,6 +239,7 @@ height:820px;
 
 
 #portal-gradient{
+  position: relative;
   background:linear-gradient(
       110deg, #fdffe9, #f0ffff
     ); height:820px;
@@ -244,12 +250,16 @@ height:820px;
     margin-right: 8px;
     letter-spacing: 0.8px;
 }
-#hero-portal-text {
-  right: 82px;
+.hero-portal-text {
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    position: absolute;
+/*  right: 82px;
     left: 0px;
     width: 100%;
     top: -50px;
-}
+*/}
 
 .slide-header{
   color: #40608e;
@@ -380,6 +390,7 @@ height:95vh;
 
 
 #portal-gradient{
+  position: relative;
   background:linear-gradient(
       110deg, #fdffe9, #f0ffff
     ); height:95vh;
@@ -394,12 +405,16 @@ height:95vh;
     margin-right: 8px;
     letter-spacing: 0.8px;
 }
-#hero-portal-text {
-  right: 82px;
+.hero-portal-text {
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    position: absolute;
+/*  right: 82px;
     left: 0px;
     width: 100%;
     top: -50px;
-}
+*/}
 
 .slide-header{
   color: #40608e;
@@ -566,6 +581,7 @@ height:95vh;
 
 
 #portal-gradient{
+  position: relative;
   background:linear-gradient(
       110deg, #fdffe9, #f0ffff
     ); height:83vh;
@@ -643,12 +659,16 @@ height:95vh;
   margin-top: -65px;
 }
 
-#hero-portal-text {
-  right: 82px;
+.hero-portal-text {
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    position: absolute;
+/*  right: 82px;
     left: 0px;
     width: 100%;
     top: -50px;
-}
+*/}
 
 .slide-header{
   color: #40608e;
@@ -756,6 +776,7 @@ height:95vh;
 
 
 #portal-gradient{
+  position: relative;
   background:linear-gradient(
       110deg, #fdffe9, #f0ffff
     ); height:95vh;
@@ -829,12 +850,16 @@ margin-top:19px;
 
 }
 
-#hero-portal-text {
-  right: 82px;
+.hero-portal-text {
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    position: absolute;
+/*  right: 82px;
     left: 0px;
     width: 100%;
     top: -187px;
-}
+*/}
 .bills-head-text{
 
   margin-top:-75px;
@@ -1155,4 +1180,14 @@ footer{
 }
 .features-torso-wrap{
   padding-bottom: 30px;
+}
+
+.carousel-indicators li{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+}
+
+#payment-sol-payments {
+  div[class*="col-"] {
+    height: 100%;
+  }
 }
