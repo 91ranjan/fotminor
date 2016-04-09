@@ -1149,3 +1149,10 @@ footer{
   letter-spacing: 0.6px;
   font-size: 12px;
 }
+.simpel-small-images{
+  width:60px;
+  height: 60px;
+}
+.features-torso-wrap{
+  padding-bottom: 30px;
+}
