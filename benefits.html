@@ -98,8 +98,7 @@
       <div class="row" style=" width: 100%;
     height: 100%;
     margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;">
+    padding: 0px;">
       <!-- gradient styled slider full width fluid, content in 960px container-->
     <div class="hero" >
 
@@ -421,6 +420,14 @@ propositions.</p>
 $('.carousel').carousel({
     interval: false //changes the speed
 })
+window.onscroll = (ev) => {
+    if (window.scrollY > 0) {
+        $('.header').addClass('header-sticky');
+    } else if (window.scrollY == 0) {
+        console.log('on top');
+        $('.header').removeClass('header-sticky');
+    }
+};
 </script>
 </body>
 </html>
