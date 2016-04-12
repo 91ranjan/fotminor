@@ -963,12 +963,17 @@ background-color:transparent;
   letter-spacing: 0.3px;
   margin-bottom: 24px;
   opacity: 0.8;
+  width: 300px;
 }
 
 .hero-slide-button {
-
     border-radius: 0px;
 }
+.hero-slide-button a{
+    color:white;
+    text-decoration: none;
+}
+
 .slide-btn-1:hover {
   color:#fff !important;
   background-color: #bd4300 !important;
