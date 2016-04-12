@@ -532,7 +532,14 @@ http://www.loylty.com/</p>
 $('.carousel').carousel({
     interval: false //changes the speed
 });
-
+window.onscroll = (ev) => {
+    if (window.scrollY > 0) {
+        $('.header').addClass('header-sticky');
+    } else if (window.scrollY == 0) {
+        console.log('on top');
+        $('.header').removeClass('header-sticky');
+    }
+};
 </script>
 </body>
 </html>

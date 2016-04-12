@@ -97,7 +97,7 @@
 <div class="row" style=" width: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;">
+    ">
       <!-- gradient styled slider full width fluid, content in 960px container-->
     <div class="hero" >
  <div class="" style="background-image: linear-gradient(
@@ -330,7 +330,15 @@
 <script>
 $('.carousel').carousel({
     interval: 10000 //changes the speed
-})
+});
+window.onscroll = (ev) => {
+    if (window.scrollY > 0) {
+        $('.header').addClass('header-sticky');
+    } else if (window.scrollY == 0) {
+        console.log('on top');
+        $('.header').removeClass('header-sticky');
+    }
+};
 </script>
 </body>
 </html>
