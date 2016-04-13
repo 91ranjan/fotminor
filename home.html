@@ -45,9 +45,12 @@
       </button>
       <a class="navbar-brand" href="index.html">
           <!-- task: add a wrapper to center the object  -->
+        <object data="billdesk_logo_white.svg" type="image/svg+xml" class="bd-logo-white" >
+          <p>BillDesk_Logo</p>
+        </object>
         <object data="billdesk_logo.svg" type="image/svg+xml" class="bd-logo" />
-      <p>BillDesk_Logo</p>
-    </object>
+          <p>BillDesk_Logo</p>
+        </object>
   </a>
     </div>
 
@@ -300,6 +303,14 @@ Built over a decade of trust, our technology and solutions are making  electroni
 $('.carousel').carousel({
     interval: false //changes the speed
 })
+window.onscroll = (ev) => {
+    if (window.scrollY > 20) {
+        $('.header').addClass('header-sticky');
+    } else if (window.scrollY < 15) {
+        console.log('on top');
+        $('.header').removeClass('header-sticky');
+    }
+};
 </script>
 
 </body>

@@ -50,17 +50,19 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     display: block;
 }
 
-@media (min-width: 1200px) {
-.container{
-  width: 960px;
-}
 header {
 /*height: 100px;*/
   width: 100%;
   position: fixed;
   z-index: 9;
-  -webkit-transition: background .3s linear, border .3s linear, -webkit-transform .5s ease;
-  transition: background .3s linear, border .3s linear, transform .5s ease;
+  -webkit-transition: background .3s linear, border .3s linear, -webkit-transform .3s ease;
+  transition: background .3s linear, border .3s linear, transform .3s ease;
+}
+header .bd-logo {
+  display: none;
+}
+header .bd-logo-white {
+  display: inline-block;
 }
 header.header-sticky {
   background-color: #fff;
@@ -69,6 +71,12 @@ header.header-sticky {
 
   -webkit-transition: background .3s linear, border .3s linear, -webkit-transform .5s ease;
   transition: background .3s linear, border .3s linear, transform .5s ease;
+}
+header.header-sticky .bd-logo-white {
+  display: none;
+}
+header.header-sticky .bd-logo {
+  display: inline-block;
 }
 header .nav>li>a {
   color: #fff;
@@ -111,13 +119,17 @@ header.header-sticky .navbar-default .navbar-nav.nav>li>a {
 .navbar-toggle {
   margin-top: 20px !important;
 }
+@media (min-width: 1200px) {
+.container{
+  width: 960px;
+}
 
 
 
 /*.level-2-torso {
   margin-top: -441px;
 }*/
-.bd-logo{
+.bd-logo, .bd-logo-white{
   width:215px;
   margin-top:-15px;
   pointer-events: none;
@@ -223,7 +235,7 @@ width: 401px;
   margin-top: 90px;
 }
 #careers-tab-container ul{
-  margin-top: -23%
+  /*margin-top: -23%*/
 }
 /*.level-2-torso {
   margin-top: -393px;
@@ -279,8 +291,9 @@ height: 80px;
   */margin-top: -389px;
 
 }
-.bd-logo{
+.bd-logo, .bd-logo-white{
   width:215px;
+  pointer-events: none;
 }
 
 .hero-hexa {
@@ -384,7 +397,7 @@ width: 401px;
   margin-top: 90px;
 }
 #careers-tab-container ul{
-  margin-top: -23%
+  /*margin-top: -23%*/
 }
 
 /*.payment-torso {
@@ -561,7 +574,7 @@ width: 401px;
   margin-top: 45px;
 }
 #careers-tab-container ul{
-  margin-top: -43%
+  /*margin-top: -43%*/
 }
 /*.payment-torso {
   margin-top:-551px;
@@ -610,7 +623,7 @@ height: 32px;
 }
 .navbar-default .navbar-toggle {
   border-color: transparent !important;
-  top: -31px !important;
+  /*top: -31px !important;*/
     opacity: 0.3 !important;
 }
 .carousel-indicators li {
@@ -622,9 +635,9 @@ height: 32px;
   /*.level-2-torso {
   margin-top: -393px;
 }*/
-  .bd-logo{
+  .bd-logo, .bd-logo-white{
     width:131px;
-  top: -26px;
+    /*top: -26px;*/
     position: relative;
     left:-5px;
 }
@@ -749,7 +762,7 @@ height:95vh;
 }
 
 #careers-tab-container ul{
-  margin-top: -43%
+  /*margin-top: -43%*/
 }
 .solution-name{
   color:#5E6062;
@@ -945,7 +958,7 @@ margin-top:19px;
 }
 
 #careers-tab-container ul{
-  margin-top: -113%
+  /*margin-top: -113%*/
 }
 
 /*.payment-torso {

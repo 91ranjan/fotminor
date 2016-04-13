@@ -45,9 +45,12 @@
       </button>
       <a class="navbar-brand" href="index.html">
           <!-- task: add a wrapper to center the object  -->
-        <object data="billdesk_logo.svg" type="image/svg+xml"  class="bd-logo" />
-      <p>BillDesk_Logo</p>
-    </object>
+        <object data="billdesk_logo_white.svg" type="image/svg+xml" class="bd-logo-white" >
+          <p>BillDesk_Logo</p>
+        </object>
+        <object data="billdesk_logo.svg" type="image/svg+xml" class="bd-logo" >
+          <p>BillDesk_Logo</p>
+        </object>
   </a>
     </div>
 
@@ -98,14 +101,14 @@
     <div class="row" style=" width: 100%;
     height: 100%;
     margin: 0px;
-    padding: 0px;>
+    padding: 0px;">
       <!-- gradient styled slider full width fluid, content in 960px container-->
     <div class="hero" >
 
 
 
        <div class="slides">
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="height:520px;">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="height:370px;">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -374,9 +377,9 @@ $('#about-nav-tabs a').click(function (e) {
   $(this).tab('show')
 });
 window.onscroll = (ev) => {
-    if (window.scrollY > 0) {
+    if (window.scrollY > 20) {
         $('.header').addClass('header-sticky');
-    } else if (window.scrollY == 0) {
+    } else if (window.scrollY < 15) {
         console.log('on top');
         $('.header').removeClass('header-sticky');
     }

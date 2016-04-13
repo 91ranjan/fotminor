@@ -45,9 +45,12 @@
       </button>
       <a class="navbar-brand" href="index.html">
           <!-- task: add a wrapper to center the object  -->
-        <object data="billdesk_logo.svg" type="image/svg+xml"  class="bd-logo" />
-      <p>BillDesk_Logo</p>
-    </object>
+        <object data="billdesk_logo_white.svg" type="image/svg+xml" class="bd-logo-white" >
+          <p>BillDesk_Logo</p>
+        </object>
+        <object data="billdesk_logo.svg" type="image/svg+xml" class="bd-logo" />
+          <p>BillDesk_Logo</p>
+        </object>
   </a>
     </div>
 
@@ -104,7 +107,7 @@
     <div class="hero" >
       <div class="row" >
       <div class="container">
-      <img src="about-head.png" alt=""  class="img-responsive"  style="width:100%; height:auto;">
+      <img src="images/About/about-header.png" alt=""  class="img-responsive"  style="width:100%; height:auto;">
     </div >
     </div>
     </div>
@@ -358,7 +361,7 @@ Started Recurring payments via ECS</p>
             <!-- Our Founders row start -->
             <div class="row">
              <div class="container" >
-             <img class="img-responsive" src="founders.png" />
+             <img class="img-responsive" src="images/About/founders.png" />
 
             <h2>Our Founders</h2>
            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -533,9 +536,9 @@ $('.carousel').carousel({
     interval: false //changes the speed
 });
 window.onscroll = (ev) => {
-    if (window.scrollY > 0) {
+    if (window.scrollY > 20) {
         $('.header').addClass('header-sticky');
-    } else if (window.scrollY == 0) {
+    } else if (window.scrollY < 15) {
         console.log('on top');
         $('.header').removeClass('header-sticky');
     }
